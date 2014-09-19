@@ -71,6 +71,5 @@ attributes(FilterData)$names[68]<-"Activities"
 splits<-split(x = FilterData, 
               f = list(FilterData$Activities, FilterData$SubjectID), 
               drop = T)
-TidyData<-lapply(splits, function(x) {colMeans(x[, 2:67])})
-write.table(x = unlist(TidyData), file = "./TidyData.txt", 
-            col.names = "average values")
+TidyData<-sapply(splits, function(x) {colMeans(x[, 2:67])})
+write.table(x = TidyData, file = "./TidyData.txt")
