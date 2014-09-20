@@ -2,12 +2,12 @@ Code Book
 
 column variables:
 
-row_names	signals were used to estimate features for each pattern associated with mean and standard deviation measurements
+row_names	\tsignals were used to estimate features for each pattern associated with mean and standard deviation measurements
 
-The acceleration(ACC) signal measurements are in standard gravity units 'g'
+The acceleration(ACC) signal measurements are in standard gravity units 'g'\n
 The angular velocity vector measured by the gyroscope(gryo) are radians/second in units
 
-Activity.Subject	the average value for each activity and each subject
+Activity.Subject	\tthe average value for each activity and each subject
 
 activities list:
 1 WALKING
