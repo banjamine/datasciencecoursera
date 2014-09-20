@@ -5,7 +5,6 @@ column variables:
 row_names	signals were used to estimate features for each pattern associated with mean and standard deviation measurements
 
 The acceleration(ACC) signal measurements are in standard gravity units 'g'
-
 The angular velocity vector measured by the gyroscope(gryo) are radians/second in units
 
 Activity.Subject	the average value for each activity and each subject
