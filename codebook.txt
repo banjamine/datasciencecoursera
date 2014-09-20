@@ -1,0 +1,21 @@
+
+
+Code Book
+
+column variables:
+
+row_names	signals were used to estimate features for each pattern associated with mean and standard deviation measurements
+
+The acceleration(ACC) signal measurements are in standard gravity units 'g'
+The angular velocity vector measured by the gyroscope(gryo) are radians/second in units
+
+Activity.Subject	the average value for each activity and each subject
+
+activities list: 1 WALKING 2 WALKING_UPSTAIRS 3 WALKING_DOWNSTAIRS 4 SITTING 5 STANDING 6 LAYING
+
+subject identifiers range from 1 to 30
+
+Study Design
+
+Merge two different data sources from train and test records into one whole dataset. Split the new dataset into groups according to the cross over activity names and subject identifiers. Calculate the average value for each group.
+
